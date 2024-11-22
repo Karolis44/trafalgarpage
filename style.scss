@@ -561,7 +561,8 @@ height: 477px;
 .article {
     width: 100%;
     display: flex;
-    justify-content: center;       
+    justify-content: center;    
+    padding-bottom: 200px;   
     
 }
 
@@ -629,7 +630,7 @@ height: 477px;
     line-height: 32px;
     font-weight: 700;
     color: var(--black);
-    padding: 30px 50px 30px 50px;
+    padding: 30px 40px 0px 40px;
 
 }
 .article .article-bin .article-bin-content .article-holder .article-container p {
@@ -637,8 +638,13 @@ height: 477px;
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
-    padding: 0px 50px 30px 50px;
+    padding: 0px 60px 0px 40px;
 }
 .article .article-bin .article-bin-content .article-holder .article-container a {
-    padding: 0px 50px 30px 50px;
+    padding: 0px 50px 30px 40px;
+}
+
+.article .article-bin .article-bin-content .article-holder .article-container a img {
+
+    padding-left: 10px;
 }
