@@ -12,11 +12,13 @@
     --xs: 320px;
     --tc: color 0.3s;
     --ta: all 0.3;
+    
 
 }
 
 a {
     text-decoration: none;
+    
 }
 
 h3 {
@@ -139,6 +141,11 @@ header .header-bin nav ul li a {
     position: relative;
     line-height: 22.59px;
 
+}
+
+header nav ul li a:hover{
+    font-weight: 700;
+    color: var(--black);
 }
 
 .hero {
@@ -566,6 +573,8 @@ height: 477px;
     
 }
 
+
+
 .article .article-bin {
     width: 100%;
     max-width: var(--cw);
@@ -641,10 +650,124 @@ height: 477px;
     padding: 0px 60px 0px 40px;
 }
 .article .article-bin .article-bin-content .article-holder .article-container a {
-    padding: 0px 50px 30px 40px;
+    margin: 0px 50px 30px 40px;
 }
 
 .article .article-bin .article-bin-content .article-holder .article-container a img {
 
     padding-left: 10px;
+}
+
+footer {
+    
+    display: flex;
+    width: 100%; 
+    justify-content: center;  
+   
+
+}
+
+footer .color {
+
+    display: flex;
+    position: relative;
+    height: 432px;
+    width: 1600px;
+    background-image: linear-gradient(#67C3F3, #5A98F2);
+    
+}
+
+footer .color .color-bin {
+
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: var(--lg);
+    color: var(--white);
+    margin: auto;
+    
+}
+
+footer .color .color-bin .color-bin-box1 {
+
+    width: 391px;
+    height: 201px;
+    color: var(--white);
+}
+
+footer .color .color-bin .color-bin-box1 p {
+ 
+    color: var(--white);
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+footer .color .color-bin .color-bin-box1 p.p2 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .color .color-bin .color-bin-box2 table {
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+footer .color .color-bin .color-bin-box2 table td:hover {
+
+    font-weight: 700;
+}
+
+footer .color .color-bin .color-bin-box2 table h1 {
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer .color .color-bin .color-bin-box2 table td {
+
+    padding-right: 130px;
+}
+
+footer .color .color-bin .color-bin-box1 .logo {
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    
+}
+
+footer .color .color-bin .color-bin-box1 .logo .logo1 {
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 60px;
+    height: 41px;
+    width: 41px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .color .color-bin .color-bin-box1 .logo .logoword {
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-left: 12px;
 }
