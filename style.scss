@@ -18,6 +18,9 @@
 
 a {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+
     
 }
 
@@ -43,12 +46,8 @@ h6,
 ul,
 ol,
 li,
-a {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+
+
 
 * {
     box-sizing: border-box;
@@ -149,29 +148,28 @@ header nav ul li a:hover{
 }
 
 .hero {
-    width: 100%;
+    
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
-}
-
-.hero .hero-bin {
-    overflow: hidden;
-    font-size: 0;
+    align-items: center;
     position: relative;
-    z-index: -1;
-    height: 100vh;
     width: 100%;
-    max-width: var(--xl);
+    max-width: var(--lg);
     background-color: var(--white);
-
+    margin: auto;
+    flex-wrap: wrap;
+   
 }
+
+
 
 .hero .hero-bin-content {
-    position: absolute;
+    position: relative;
     display: flex;
     width: 100%;
     max-width: var(--lg);
+    padding-bottom: 300px;
+    
 
 }
 
@@ -182,8 +180,8 @@ header nav ul li a:hover{
     position: relative;
     width: 131.58px;
     height: 115px;
-    margin-left: -200px;
-    margin-top: 180px;
+    margin-left: -175px;
+    margin-top: 100px;
 
 }
 
@@ -196,7 +194,7 @@ header nav ul li a:hover{
     flex-direction: column;
     width: 440px;
     height: 338px;
-    margin-top: 283px;
+    margin-top: 200px;
     margin-left: 30px;
 }
 
@@ -218,14 +216,12 @@ header nav ul li a:hover{
 
 .hero .hero-bin-content .nuotrauka {
 
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    
+
     width: 693px;
     height: 598px;
-    margin-top: 177px;
-    margin-left: 630px;
+    padding-left: 200px;
+    padding-top: 140px;
 }
 
 
@@ -240,6 +236,23 @@ header nav ul li a:hover{
     height: 60px;
     padding: 17px;
     border-radius: 55px;
+    border: 1.4px solid var(--primary-color);
+
+
+}
+
+.button:hover {
+
+    background-color: var(--white);
+    color: var(--primary-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    padding: 17px;
+    border-radius: 55px;
+    border: 1.4px solid var(--primary-color);
 
 
 }
@@ -387,6 +400,22 @@ header nav ul li a:hover{
     padding: 17px;
     border-radius: 55px;
     border: 1.4px solid var(--primary-color);
+    font-weight: 500;
+
+}
+
+.button2:hover {
+
+    background-color: var(--primary-color);
+    color: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    padding: 17px;
+    border-radius: 55px;
+    border: 1.4px solid var(--white);
     font-weight: 500;
 
 }
@@ -618,6 +647,8 @@ height: 477px;
     padding-bottom: 100px;
     
 }
+
+
 
 .article .article-bin .article-bin-content .article-holder .article-container {
 
