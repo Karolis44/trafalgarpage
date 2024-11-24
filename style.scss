@@ -447,7 +447,8 @@ header nav ul li a:hover{
     border-radius: 55px;
     border: 1.4px solid var(--white);
     font-weight: 700;
-
+    
+    
 }
 
 
@@ -515,12 +516,23 @@ height: 477px;
 }
 
 
+
+
 .page1 .content1 {
 
     width: 400px;
     height: 375px;
    
 
+}
+
+.page1 .content1 .armin {
+    
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+   
+    
 }
 
 .page1 .content1 p {
@@ -679,6 +691,7 @@ height: 477px;
     display: flex;
     justify-content: center;    
     padding-bottom: 200px;   
+    position: relative;
     
 }
 
@@ -694,6 +707,32 @@ height: 477px;
 
 }
 
+.article .article-bin .article-bin-content .taskai6 img {
+    
+    overflow: hidden;
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    left: -48px;
+    top: 178px;
+    z-index: 0;
+    
+    
+}
+
+.article .article-bin .article-bin-content .taskai7 img {
+    
+    overflow: hidden;
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    left: 1140px;
+    top: 1020px;
+    z-index: 0;
+    
+    
+}
+
 .article .article-bin .article-bin-content .bldash {
 
     display: flex;
@@ -706,6 +745,8 @@ height: 477px;
     
     justify-content: center; 
     flex-wrap: wrap;
+    position: relative;
+    
 
 }
 
@@ -802,6 +843,19 @@ footer .color .color-bin {
     
 }
 
+footer .color .color-bin .taskai8 img {
+    
+    overflow: hidden;
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    left: -160px;
+    top: 315px;
+    z-index: 0;
+    
+    
+}
+
 footer .color .color-bin .color-bin-box1 {
 
     width: 391px;
@@ -835,7 +889,7 @@ footer .color .color-bin .color-bin-box2 table {
 
 footer .color .color-bin .color-bin-box2 table td:hover {
 
-    font-weight: 700;
+    font-weight: 500;
 }
 
 footer .color .color-bin .color-bin-box2 table h1 {
