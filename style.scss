@@ -12,16 +12,12 @@
     --xs: 320px;
     --tc: color 0.3s;
     --ta: all 0.3;
-    
-
 }
 
 a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-
-    
 }
 
 h3 {
@@ -73,7 +69,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    
 }
 
 header .header-bin {
@@ -81,7 +76,6 @@ header .header-bin {
     width: 100%;
     align-items: center;
     max-width: var(--lg);
-  
 }
 
 header .landing {
@@ -121,15 +115,11 @@ header .header-bin nav ul {
     justify-content: center;
     column-gap: 30px;
     margin-top: 70px;
-
-
 }
 
 header .header-bin nav ul li {
     display: flex;
     align-items: center;
-
-
 }
 
 header .header-bin nav ul li a {
@@ -139,16 +129,14 @@ header .header-bin nav ul li a {
     transition: var(--tc);
     position: relative;
     line-height: 22.59px;
-
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     font-weight: 700;
     color: var(--black);
 }
 
 .hero {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +146,6 @@ header nav ul li a:hover{
     background-color: var(--white);
     margin: auto;
     flex-wrap: wrap;
-   
 }
 
 
@@ -169,8 +156,6 @@ header nav ul li a:hover{
     width: 100%;
     max-width: var(--lg);
     padding-bottom: 300px;
-    
-
 }
 
 
@@ -182,11 +167,9 @@ header nav ul li a:hover{
     height: 115px;
     margin-left: -175px;
     margin-top: 100px;
-
 }
 
 .hero .hero-bin-content .box {
-
     position: relative;
     display: flex;
     justify-content: center;
@@ -204,7 +187,6 @@ header nav ul li a:hover{
     color: var(--black);
     line-height: 56px;
     margin-bottom: 20px;
-
 }
 
 .hero .hero-bin-content .box p {
@@ -215,9 +197,6 @@ header nav ul li a:hover{
 }
 
 .hero .hero-bin-content .nuotrauka {
-
-    
-
     width: 693px;
     height: 598px;
     padding-left: 200px;
@@ -226,7 +205,6 @@ header nav ul li a:hover{
 
 
 .button {
-
     background-color: var(--primary-color);
     color: var(--white);
     position: relative;
@@ -238,12 +216,9 @@ header nav ul li a:hover{
     border-radius: 55px;
     border: 1.4px solid var(--primary-color);
     font-weight: 600;
-
-
 }
 
 .button:hover {
-
     background-color: var(--white);
     color: var(--primary-color);
     position: relative;
@@ -255,12 +230,10 @@ header nav ul li a:hover{
     border-radius: 55px;
     border: 1.4px solid var(--primary-color);
     font-weight: 600;
-
-
+    cursor: pointer;
 }
 
 .blocks {
-
     width: 100%;
     display: flex;
     margin: auto;
@@ -269,19 +242,16 @@ header nav ul li a:hover{
     background-color: var(--white);
     max-width: var(--lg);
     position: relative;
-    
 }
 
 
 .blocks .blocks-bin .tiesus {
-
     display: flex;
     justify-content: center;
 }
 
 
 .blocks .blocks-bin {
-
     width: 100%;
     max-width: var(--lg);
     padding: 0 10px 0 70px;
@@ -289,7 +259,6 @@ header nav ul li a:hover{
 }
 
 .blocks .blocks-bin .taskai2 img {
-    
     display: flex;
     position: absolute;
     width: 131.58px;
@@ -301,30 +270,22 @@ header nav ul li a:hover{
 }
 
 .blocks .blocks-bin .vector img {
-
     display: flex;
     position: absolute;
     top: 500px;
     left: -120px;
-
-    
-
 }
 
 .blocks .blocks-bin h2.header {
-
     font-size: 36px;
     font-weight: 700px;
     line-height: 56px;
     color: var(--black);
     text-align: center;
     padding: 25px;
-
-
 }
 
 .blocks .blocks-bin p {
-
     font-size: 18px;
     font-weight: 300px;
     line-height: 30px;
@@ -332,13 +293,11 @@ header nav ul li a:hover{
     text-align: center;
     margin-top: 25px;
     padding: 100px;
-
 }
 
 
 
 .blocks .blocks-bin .blocks-holder {
-
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -346,8 +305,6 @@ header nav ul li a:hover{
     justify-content: center;
     column-gap: 50px;
     row-gap: 30px;
-   
-    
 }
 
 .blocks .blocks-bin .blocks-holder .button2 {
@@ -355,7 +312,6 @@ header nav ul li a:hover{
 }
 
 .blocks .blocks-bin .blocks-holder .block {
-
     max-width: 350px;
     max-height: 354px;
     background-color: var(--white);
@@ -365,9 +321,6 @@ header nav ul li a:hover{
     border-radius: 10px;
     flex: 1;
     box-shadow: 19px 17px 13px 12px rgba(0, 0, 0, 0.13);
-
-
-
 }
 
 
@@ -378,15 +331,12 @@ header nav ul li a:hover{
     z-index: 1;
     margin-top: 65px;
     margin-left: 30px;
-
 }
 
 .blocks .blocks-bin .blocks-holder .block .block-content {
     position: relative;
     align-items: left;
     align-content: left;
-
-
 }
 
 .blocks .blocks-bin .blocks-holder .block .block-content h2 {
@@ -397,12 +347,9 @@ header nav ul li a:hover{
     align-items: left;
     margin-top: 200px;
     margin-left: 30px;
-
-
 }
 
 .blocks .blocks-bin .blocks-holder .block .block-content p {
-
     color: var(--accent-color1);
     font-size: 16px;
     font-weight: 300;
@@ -414,12 +361,9 @@ header nav ul li a:hover{
     text-align: left;
     width: 266px;
     height: 84px;
-
-
 }
 
 .button2 {
-
     background-color: var(--white);
     color: var(--primary-color);
     position: relative;
@@ -431,11 +375,9 @@ header nav ul li a:hover{
     border-radius: 55px;
     border: 1.4px solid var(--primary-color);
     font-weight: 700;
-
 }
 
 .button2:hover {
-
     background-color: var(--primary-color);
     color: var(--white);
     position: relative;
@@ -447,8 +389,7 @@ header nav ul li a:hover{
     border-radius: 55px;
     border: 1.4px solid var(--white);
     font-weight: 700;
-    
-    
+    cursor: pointer;
 }
 
 
@@ -462,11 +403,9 @@ header nav ul li a:hover{
     background-color: var(--white);
     padding-bottom: 200px;
     flex-wrap: wrap;
-
 }
 
 .page .taskai3 img {
-    
     overflow: hidden;
     display: flex;
     position: absolute;
@@ -474,33 +413,25 @@ header nav ul li a:hover{
     height: 115px;
     right: -170px;
     top: 510px;
-    
-
 }
 
 .page .iliustration { 
-
 width: 650px;
 height: 477px;
-
 }
 
 .page .content {
-
     width: 400px;
     height: 388px;
     padding-top: 50px;
-
 }
 
 .page .content p {
-
     margin-bottom: 30px;
 }
 
 
 .page1 {
-
     position: relative;
     margin: auto;
     width: 100%;
@@ -510,58 +441,42 @@ height: 477px;
     background-color: var(--white);
     padding-bottom: 200px;
     flex-wrap: wrap;
-    
-    
-
 }
 
 
 
 
 .page1 .content1 {
-
     width: 400px;
     height: 375px;
-   
-
 }
 
 .page1 .content1 .armin {
-    
     padding-left: 14px;
     padding-bottom: 14px;
-    
-    
-   
-    
 }
 
 .page1 .content1 p {
-
     margin-bottom: 30px;
 }
 
 
 .page1 .iliustration1 { 
-    
     width: 665px;
     height: 434px;
 }
 
 
 .comment {
-
     width: 100%;
     display: flex;
     justify-content: center;
     max-width: var(--lg);
     margin: auto;
     position: relative;
-    
 }
 
 .comment .taskai5 img {
-    
     overflow: hidden;
     position: absolute;
     width: 131.58px;
@@ -569,12 +484,9 @@ height: 477px;
     left: 30px;
     top: 280px;
     z-index: 0;
-    
-    
 }
 
 .comment .comment-bin {
-
     position: relative;
     width: 1120px;
     height: 425px;
@@ -584,19 +496,13 @@ height: 477px;
     border-radius: 24px;
     justify-content: center;
     z-index: 1;
-    
-
 }
 
 .comment .comment-bin .taskai4 img {
-    
     overflow: hidden;
     position: absolute;
     right: 5px;
     top: 10px;
-    
-    
-    
 }
 
 
@@ -608,51 +514,35 @@ height: 477px;
    align-items: center;
    flex-wrap: wrap;
    justify-content: center;
-   
-    
 }
 
 .comment .comment-bin .comment-bin-content h1 {
-
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
     padding-top: 70px;
     padding-left: 70px;
-
 }
 
 .comment .comment-bin .comment-bin-content .whdash {
-    
     display: flex;
     position: absolute;
-    
-    
-
 }
 
 .comment .comment-bin .comment-bin-content .column {
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding-top: 40px;
-    
-   
-    
-    
-
 }
-.comment .comment-bin .comment-bin-content .column .foto {
 
+.comment .comment-bin .comment-bin-content .column .foto {
     padding-right: 30px;
-    
 }
 
 .comment .comment-bin .comment-bin-content .column p {
-
     width: 500px;
     height: 120px;
     font-size: 19px;
@@ -660,7 +550,6 @@ height: 477px;
     line-height: 30px;
     color: var(--white);
     padding-left: 90px;
-    
 }
 
 
@@ -671,7 +560,6 @@ height: 477px;
 }
 
 .comment .comment-bin .comment-bin-content .column .together .circle {
-
     font-size: 18px;
     font-weight: 400;
     line-height: 48px;
@@ -693,7 +581,6 @@ height: 477px;
     justify-content: center;    
     padding-bottom: 200px;   
     position: relative;
-    
 }
 
 
@@ -704,12 +591,9 @@ height: 477px;
     display: flex;
     position: relative;
     justify-content: center;
-    
-
 }
 
 .article .article-bin .article-bin-content .taskai6 img {
-    
     overflow: hidden;
     position: absolute;
     width: 131.58px;
@@ -717,12 +601,9 @@ height: 477px;
     left: -48px;
     top: 178px;
     z-index: 0;
-    
-    
 }
 
 .article .article-bin .article-bin-content .taskai7 img {
-    
     overflow: hidden;
     position: absolute;
     width: 131.58px;
@@ -730,25 +611,18 @@ height: 477px;
     left: 1140px;
     top: 1020px;
     z-index: 0;
-    
-    
 }
 
 .article .article-bin .article-bin-content .bldash {
-
     display: flex;
     position: relative;
     justify-content: center; 
-
 }
 
 .article .article-bin .article-bin-content {
-    
     justify-content: center; 
     flex-wrap: wrap;
     position: relative;
-    
-
 }
 
 .article .article-bin .article-bin-content h3 {
@@ -758,7 +632,6 @@ height: 477px;
 
 
 .article .article-bin .article-bin-content .article-holder {
-
     display: flex;
     width: 100%;
     justify-content: center;
@@ -767,13 +640,11 @@ height: 477px;
     flex-wrap: wrap;
     padding-top: 90px;
     padding-bottom: 100px;
-    
 }
 
 
 
 .article .article-bin .article-bin-content .article-holder .article-container {
-
     width: 350px;
     height: 512px;
     box-shadow: 10px 40px 50px 0px #E5E9F666;
@@ -783,55 +654,46 @@ height: 477px;
     display: flex;
     justify-content: center;
     margin: auto;
-    
 }
 
 .article .article-bin .article-bin-content .article-holder .article-container h2 {
-
     font-size: 21px;
     line-height: 32px;
     font-weight: 700;
     color: var(--black);
     padding: 30px 40px 0px 40px;
-
 }
-.article .article-bin .article-bin-content .article-holder .article-container p {
 
+.article .article-bin .article-bin-content .article-holder .article-container p {
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
     padding: 0px 60px 0px 40px;
 }
+
 .article .article-bin .article-bin-content .article-holder .article-container a {
     margin: 0px 50px 30px 40px;
 }
 
 .article .article-bin .article-bin-content .article-holder .article-container a img {
-
     padding-left: 10px;
 }
 
 footer {
-    
     display: flex;
     width: 100%; 
     justify-content: center;  
-   
-
 }
 
 footer .color {
-
     display: flex;
     position: relative;
     height: 432px;
     width: 1600px;
     background-image: linear-gradient(#67C3F3, #5A98F2);
-    
 }
 
 footer .color .color-bin {
-
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -841,11 +703,9 @@ footer .color .color-bin {
     max-width: var(--lg);
     color: var(--white);
     margin: auto;
-    
 }
 
 footer .color .color-bin .taskai8 img {
-    
     overflow: hidden;
     position: absolute;
     width: 131.58px;
@@ -853,19 +713,15 @@ footer .color .color-bin .taskai8 img {
     left: -160px;
     top: 315px;
     z-index: 0;
-    
-    
 }
 
 footer .color .color-bin .color-bin-box1 {
-
     width: 391px;
     height: 201px;
     color: var(--white);
 }
 
 footer .color .color-bin .color-bin-box1 p {
- 
     color: var(--white);
     font-weight: 300;
     line-height: 28px;
@@ -879,42 +735,36 @@ footer .color .color-bin .color-bin-box1 p.p2 {
 }
 
 footer .color .color-bin .color-bin-box2 table {
-
     font-weight: 300;
     font-size: 18px;
     line-height: 38px;
     text-align: left;
     padding-left: 50px;
-
 }
 
 footer .color .color-bin .color-bin-box2 table td:hover {
-
     font-weight: 500;
 }
 
 footer .color .color-bin .color-bin-box2 table h1 {
-
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 footer .color .color-bin .color-bin-box2 table td {
-
     padding-right: 130px;
+    cursor: pointer;
 }
 
 footer .color .color-bin .color-bin-box1 .logo {
-
     display: flex;
     flex-direction: row;
     position: relative;
     align-items: center;
-    
 }
 
 footer .color .color-bin .color-bin-box1 .logo .logo1 {
-
     font-size: 26px;
     font-weight: 700;
     line-height: 33px;
@@ -927,11 +777,9 @@ footer .color .color-bin .color-bin-box1 .logo .logo1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer .color .color-bin .color-bin-box1 .logo .logoword {
-
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
